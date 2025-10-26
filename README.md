@@ -1,7 +1,7 @@
-<h1 align="center"> 𝐃𝐄𝐕_𝐌𝐀𝐗-𝐌𝐃 </h1>
+<h1 align="center"> 𝐄𝐗𝐓𝐑𝐀-𝐌𝐃 </h1>
 
 <img align="center" height="auto"
-src="https://files.catbox.moe/tx03aw.png">
+src="https://files.catbox.moe/kk05xb.jpeg">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=506EF8&lines=WELCOME+TO+DEV+MAX+MD+MADE+BY;JELIO+STARR+DEV;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 <br>
@@ -15,10 +15,10 @@ src="https://files.catbox.moe/tx03aw.png">
 <a href="https://github.com/Jeliostarr/followers"><img title="Followers" src="https://img.shields.io/github/followers/Jeliostarr?color=purple&style=flat-square"></a>
 <a href="https://github.com/Jeliostarr/DEV_MAX-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Jeliostarr/DEV_MAX-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/Jeliostarr/DEV_MAX-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Jeliostarr/DEV_MAX-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/Jeliostarr/DEV_MAX-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Jeliostarr/DEV_MAX-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Jeliostarr/DEV_MAX-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Jeliostarr/DEV_MAX-MD?style=flat-square&color=green"></a>
-<a href="https://github.com/Jeliostarr/DEV_MAX-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
-<a href="https://github.com/Jeliostarr/DEV_MAX-MD"Dev"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
+<a href="https://github.com/Jeliostarr/EXTRA-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Jeliostarr/DEV_MAX-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Jeliostarr/EXTRA-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/Jeliostarr/EXTRA-MD?style=flat-square&color=green"></a>
+<a href="https://github.com/Jeliostarr/EXTRA-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
+<a href="https://github.com/Jeliostarr/EXTRA-MD"Dev"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=Jeliostarr&label=VIEWS&style=flat-square&color=blue" />
 </a>
 <p align="center">
@@ -48,8 +48,7 @@ src="https://files.catbox.moe/tx03aw.png">
 
 ## Credits
 
-- [Dev](https://github.com/Jeliostarr)
-- [Hector](https://github.com/OfficialKango)
+- [Jeliostarrdev](https://github.com/Jeliostarr)
 - [Baileys](https://github.com/WhiskeySockets)
 
 <h2 align="center">  𝗣𝗢𝗟𝗜𝗧𝗘 𝗡𝗢𝗧𝗜𝗖𝗘!
