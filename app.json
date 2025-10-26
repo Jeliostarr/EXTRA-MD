@@ -1,18 +1,249 @@
 {
-  "name": "DEV_MAX-MD",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Jeliostarr/DEV_MAX-MD",
-  "logo": "https://files.catbox.moe/45k0i2.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "name": "EXTRA-MD",
+  "description": "Javascript WhatsApp bot made by Jelio Starr Dev",
+  "logo": "https://files.catbox.moe/kk05xb.jpeg",
+  "keywords": ["EXTRA-MD"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },  
+    
+    "STICKER_NAME": {
+      "description": "Type your sticker pack name.",
+      "required": false,
+      "value": "EXTRA-MD"
+    }, 
+      
+    "PREFIX": {
+      "description": "Paste your bot prefix. Don't apply null prefix.",
+      "required": false,
+      "value": "."
+    },
+    
+    "MODE": {
+      "description": "Select your bot work type: public/private.",
+      "required": false,
+      "value": "public"
+    },
+    
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if you want bot always online.",
+      "required": false,
+      "value": "false"  
+    },    
+  
+    "AUTO_VOICE": {
+      "description": "Make it true if you want automatic voice reply.",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "AUTO_REPLY": {
+      "description": "Make it true if you want automatic reply.",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "AUTO_STICKER": {
+      "description": "Make it true if you want automatic sticker.",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "AUTO_STATUS_SEEN": {
+      "description": "Make it true for automatic status seen.",
+      "required": false,
+      "value": "true"
+    }, 
+
+    "AUTO_STATUS_REACT": {
+      "description": "Make it true for automatic status reaction.",
+      "required": false,
+      "value": "true"
+    }, 
+
+    "AUTO_STATUS_REPLY": {
+      "description": "Make it true for auto reply message on status seen.",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "AUTO_STATUS_MSG": {
+      "description": "Type custom message for status reply.",
+      "required": false,
+      "value": "*SEEN YOUR STATUS BY EXTRA-MD🤍*"
+    }, 
+    
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "Jeliostarrdev"
+    }, 
+
+    "OWNER_NUMBER": {
+      "description": "Put the owner number for bot.",
+      "required": false,
+      "value": "256748835399"
+    }, 
+
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "EXTRA-MD"
+    }, 
+
+    "ANTI_LINK_ENABLED": {
+      "description": "Make it true if you want bot to auto remove group links.",
+      "required": false,
+      "value": "true"
+    },
+
+    "ANTI_LINK_MODE": {
+      "description": "Anti-link action: warn/kick/delete/off",
+      "required": false,
+      "value": "warn"
+    },
+
+    "ANTI_LINK_WARNINGS": {
+      "description": "Number of warnings before taking action.",
+      "required": false,
+      "value": "3"
+    },
+    
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot to auto delete bad words.",
+      "required": false,
+      "value": "false"
+    },
+
+    "MENTION_REPLY": {
+      "description": "Make it true if you want mention reply when someone mentions you.",
+      "required": false,
+      "value": "false"
+    },
+    
+    "MENU_IMAGE_URL": {
+      "description": "Add URL for menu image and mention reply.",
+      "required": false,
+      "value": "https://files.catbox.moe/kk05xb.jpeg"
+    },
+    
+    "DESCRIPTION": {
+      "description": "Add caption for menu and other features.",
+      "required": false,
+      "value": "*© POWERED BY DEVSPACE*"
+    },
+
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recording.",
+      "required": false,
+      "value": "false"
+    },
+
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "true"
+    },
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want react on every message.",
+      "required": false,
+      "value": "false"
+    },
+    
+    "CUSTOM_REACT": {
+      "description": "Make it true if you want custom reactions.",
+      "required": false,
+      "value": "false"
+    }, 
+    
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "Put here custom react emojis (comma separated).",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+    }, 
+    
+    "ANTI_DELETE": {
+      "description": "Anti-delete feature: on/off",
+      "required": false,
+      "value": "off"
+    }, 
+
+    "ADMIN_EVENTS": {
+      "description": "Make it true if you want to track admin promotions/demotions.",
+      "required": false,
+      "value": "false"
+    },
+
+    "WELCOME": {
+      "description": "Make it true if you want welcome/goodbye messages in groups.",
+      "required": false,
+      "value": "true"
+    },
+
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot to read all messages immediately.",
+      "required": false,
+      "value": "false"
+    },
+
+    "READ_CMD": {
+      "description": "Make it true if you want bot to read command messages.",
+      "required": false,
+      "value": "false"
+    },
+
+    "PUBLIC_MODE": {
+      "description": "Make it true if you want bot to work in public mode.",
+      "required": false,
+      "value": "true"
+    },
+
+    "ANTI_VV": {
+      "description": "Make it true to enable anti-view-once feature.",
+      "required": false,
+      "value": "true"
+    },
+
+    "DEFAULT_TIMEZONE": {
+      "description": "Set default timezone for the bot.",
+      "required": false,
+      "value": "Africa/Kampala"
+    },
+
+    "ALIVE_IMG": {
+      "description": "URL for alive command image.",
+      "required": false,
+      "value": "https://files.catbox.moe/z62ts0.jpg"
+    },
+
+    "LIVE_MSG": {
+      "description": "Message for alive command.",
+      "required": false,
+      "value": "> *EXTRA-MD*⚡"
+    },
+
+    "PREMIUM_TOKEN": {
+      "description": "Premium token for enhanced features.",
+      "required": false,
+      "value": ""
+    },
+
+    "FONT_STYLE": {
+      "description": "Font style for text formatting.",
+      "required": false,
+      "value": "smallcaps"
+    }
+  },
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
     }
-  ]
+  ],
+  "stack": "heroku-24"
 }
