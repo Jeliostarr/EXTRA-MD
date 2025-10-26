@@ -3,7 +3,7 @@
 <img align="center" height="auto"
 src="https://files.catbox.moe/kk05xb.jpeg">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=506EF8&lines=WELCOME+TO+DEV+MAX+MD+MADE+BY;JELIO+STARR+DEV;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=506EF8&lines=WELCOME+TO+EXTRA+MD+MADE+BY;JELIO+STARR+DEV;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 <br>
 
    </p>
